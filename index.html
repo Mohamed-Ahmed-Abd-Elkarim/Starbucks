@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarBucsks</title>
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="css/star.css">
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font Awesome Library  -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>  
+  <section>
+    <div class="circle "></div>
+      <!-- Start Header  -->
+    <div class="header">
+      <div class="container">
+        <a class="logo" href="#"><img src="images/logo (2).png" alt=""></a>
+      <div class="hamburger">
+        <div></div>
+      </div>
+      <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#delivery ">Delivery</a></li>
+            <li><a href="#app">App</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+      </div>
+    </div>
+    <!-- End Header  -->
+    <!-- Start Landing  -->
+    <div class="landing">
+      <div class="container">
+        <div class="text">
+          <h2>It's not Just Coffee <br> it's <span>Starbucsks</span></h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus iure distinctio voluptate autem itaque atque aspernatur soluta architecto! Laborum ratione magnam facere natus explicabo veritatis voluptate magni porro quod quo.</p>
+          <a href="#">Join Now</a>
+        </div>
+        <div class="image">
+          <img src="images/img1.png" class="starbucsks">
+          <ul class="social">
+            <li>
+                <a href=" https://www.facebook.com/MohamedAhmedAbdELkriM" target="_blank" class="facebook">
+                 <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+                <li>
+                  <a href="#twitter" class="twitter">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+              <li>
+                  <a href="https://www.instagram.com/mohamed_ahmed_abdelkarimm/" target="_blank" class="instagram">
+                <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+        </ul>
+        </div>
+        <div class="thumb">
+          <ul class="kinds">
+            <li><img src="images/thumb1.png" onclick="imgSlider('images/img1.png');ChangeCircleColor('#017143')"></li>
+            <li><img src="images/thumb2.png" onclick="imgSlider('images/img2.png');ChangeCircleColor('#eb7495')"></li>
+            <li><img src="images/thumb3.png" onclick="imgSlider('images/img3.png');ChangeCircleColor('#d752b1')"></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+        <!-- End Landing  -->
+  </section>
+  <!-- Start Shop -->
+<div class="shop" id="shop">
+  <div class="container">
+    <div class="main-title">
+      <p>Shop Now</p>
+      <h2>Shop Coffee</h2>
+    </div>
+    <div class="main-container">
+      <div class="box">
+        <img src="images/shop1.png" alt="">
+        <ul class="rete">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <div class="text">
+          <h3>Starbucsks Coffee</h3>
+          <div class="price">$ 15</div>
+          <a href="#order now">Order Now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img class="active" src="images/shop2.png" alt="">
+        <ul class="rete">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <div class="text">
+          <h3>Starbucsks Coffee</h3>
+          <div class="price">$ 12.5</div>
+          <a href="#order now">Order Now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/shop3.png" alt="">
+        <ul class="rete">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <div class="text">
+          <h3>Starbucsks Coffee</h3>
+          <div class="price">$  13.5</div>
+          <a href="#order now">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Shop -->
+<!-- Start Delivery -->
+<div class="delivery" id="delivery">
+  <div class="container">
+    <div class="main-title">
+      <p>Get Now</p>
+      <h2>order With Uber Eats</h2>
+    </div>
+    <div class="main-container">
+      <div class="main-image">
+        <img src="images/delivery.png" alt="">
+      </div>
+      <div class="box">
+        <h3>Today deserve delivery</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, odio beatae autem vel, impedit assumenda dolores tenetur sapiente delectus recusandae eaque unde!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolores sint iste iure ad molestias nostrum soluta officiis vel error optio laboriosam non quidem!</p>
+        <a class="order" href="#Order Now">Order Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Delivery -->
+<!-- Start Download App  -->
+<div class="app" id="app">
+  <div class="container">
+    <div class="main-title">
+    <p>Our App</p>
+    <h2>Download App</h2>
+  </div>
+  <div class="main-container">
+  <div class="box">
+    <h3>Fall into an easler rautine</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, odio beatae autem vel, impedit assumenda dolores tenetur sapiente delectus recusandae eaque unde!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolores sint iste iure ad molestias nostrum soluta officiis vel error optio laboriosam non quidem!</p>
+      <a class="order" href="#Order Now">Order Now</a>
+  </div>
+  <div class="main-image">
+    <img src="images/app.png" alt="">
+  </div>
+   </div>
+  </div>
+</div>
+<!-- End Download App  -->
+<!-- Start About  -->
+<div class="about" id="about">
+  <div class="container">
+    <div class="main-container">
+      <div class="main-image">
+        <img src="images/about.png" alt="">
+      </div>
+      <div class="box">
+        <h3>Fall into an easler rautine</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, odio beatae autem vel, impedit assumenda dolores tenetur sapiente delectus recusandae eaque unde!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolores sint iste iure ad molestias nostrum soluta officiis vel error optio laboriosam non quidem!</p>
+          <a class="order" href="#Order Now">Order Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End About  -->
+<!-- Start Footer  -->
+<div class="footer" id="contact">
+  <div class="container">
+    <ul class="social">
+      <li>
+        <a href="https://www.facebook.com/MohamedAhmedAbdELkriM" target="_blank" class="facebook">
+         <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+        <li>
+          <a href="#twitter" class="twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+      <li>
+          <a href="#instagram" class="instagram">
+        <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#youtupe" class="youtupe">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </li>
+    </ul>
+    <ul class="links">
+      <li><a href="#Privacy Policey">Privacy Policey</a></li>
+      <li><a href="#Terms Of Use">Terms Of Use</a></li>
+      <li><a href="#Our Company">Our Company</a></li>
+    </ul>
+    <p class="copyright">© Starbucks, Inc. All rights reserved.</p>
+  </div>
+</div>
+<!-- End Footer  -->
+<span class="up"><i class="fa-solid fa-angles-up"></i></span>
+<script src="main.js"></script>
+</body>
+</html>
